@@ -111,7 +111,7 @@ class Header extends Component  {
                         <a href="#" className="dropdown-item">Features</a>
                         <a href="#" className="dropdown-item">Help</a>
                         <a href="#" className="dropdown-item">Settings</a>
-                        <a href="#" className="dropdown-item">Logout</a>
+                        <a href="/" className="dropdown-item">Logout</a>
                         {/* <div className="dropdown-divider"></div>
                         <span className="dropdown-item fs-12 hint-text">Last edited by David<br/>on Friday at 5:27PM</span> */}
                         </div>

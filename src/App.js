@@ -9,7 +9,7 @@ class App extends Component {
   constructor() {
     super();
     document.body.classList.add('fixed-header');    
-    document.body.classList.add('menu-pin');    
+    document.body.classList.add('menu-pin');     
   }
 
   render() {

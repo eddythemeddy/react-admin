@@ -1,4 +1,4 @@
-import { Home, Users, CloudDrizzle, Calendar, List, DollarSign, LogIn } from 'react-feather'
+import { Home, Users, CloudDrizzle, Calendar, List, DollarSign } from 'react-feather'
 
 const pages = {
     front: [

@@ -51,7 +51,7 @@ class Header extends Component  {
     render() {
         return (
             <>
-                <a className="btn-link toggle-sidebar d-lg-none pg-icon btn-icon-link" 
+                <a href="#" className="btn-link toggle-sidebar d-lg-none pg-icon btn-icon-link" 
                     data-toggle="sidebar" 
                     onClick={this.showMenuMobile}>menu</a>
                 <div>
@@ -98,19 +98,19 @@ class Header extends Component  {
                             </span>
                         </button>
                         <div className={`dropdown-menu dropdown-menu-right profile-dropdown ${this.state.showDropdown ? 'block' : ''}`} role="menu">
-                        <a href="#" className="dropdown-item">
+                        <a className="dropdown-item">
                             <span>Signed in as <br/>
                                 <b>David Aunsberg</b>
                             </span>
                         </a>
                         <div className="dropdown-divider"></div>
-                        {/* <a href="#" className="dropdown-item">Your Profile</a>
-                        <a href="#" className="dropdown-item">Your Activity</a>
-                        <a href="#" className="dropdown-item">Your Archive</a>
+                        {/* <a className="dropdown-item">Your Profile</a>
+                        <a className="dropdown-item">Your Activity</a>
+                        <a className="dropdown-item">Your Archive</a>
                         <div className="dropdown-divider"></div> */}
-                        <a href="#" className="dropdown-item">Features</a>
-                        <a href="#" className="dropdown-item">Help</a>
-                        <a href="#" className="dropdown-item">Settings</a>
+                        <a className="dropdown-item">Features</a>
+                        <a className="dropdown-item">Help</a>
+                        <a className="dropdown-item">Settings</a>
                         <a href="/" className="dropdown-item">Logout</a>
                         {/* <div className="dropdown-divider"></div>
                         <span className="dropdown-item fs-12 hint-text">Last edited by David<br/>on Friday at 5:27PM</span> */}

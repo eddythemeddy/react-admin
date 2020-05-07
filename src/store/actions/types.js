@@ -1,3 +1,5 @@
-export const FETCH_POSTS = 'FETCH_POST';
-export const NEW_POST = 'NEW_POST';
+export const FETCH_POSTS = 'FETCH_POST'
+export const NEW_POST = 'NEW_POST'
 export const TOGGLE_MENU = 'TOGGLE_MENU'
+export const SET_USER_DATA = 'SET_USER_DATA'
+export const CLEAR_STORE = 'CLEAR_STORE'

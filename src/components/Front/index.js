@@ -3,10 +3,6 @@ import { Route } from 'react-router'
 import Home from './Pages/Landing'
 
 class Front extends Component {
-    
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         require('./assets/css/style.css')

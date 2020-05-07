@@ -5,11 +5,13 @@
   "dependencies": {
     "express": "^4.17.1",
     "final-form": "^4.19.1",
+    "popper.js": "^1.16.1",
     "react": "^16.13.0",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.1.0"
   },
   "homepage": "http://localhost/",
   "scripts": {
@@ -21,7 +23,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost",
   "browserslist": {
     "production": [
       ">0.2%",

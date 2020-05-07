@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class Recipes extends Component {
-    state = {  }
     render() { 
         return (<>
                 <h1>Recipes List</h1>
@@ -9,4 +8,4 @@ class Recipes extends Component {
     }
 }
  
-export default Recipes;
+export default Recipes; 

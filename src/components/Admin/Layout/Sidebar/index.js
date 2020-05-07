@@ -17,7 +17,7 @@ class Sidebar extends Component {
 	}
 
 	componentDidUpdate(prevProps) {
-		if(prevProps.generals.mobileMenu != this.props.generals.mobileMenu) {
+		if(prevProps.generals.mobileMenu !== this.props.generals.mobileMenu) {
 			this.setState({
 				showMenu: this.props.generals.mobileMenu
 			})
@@ -27,6 +27,17 @@ class Sidebar extends Component {
 	render() {
 		return (
 			<nav className={`page-sidebar ${this.state.showMenu && "visible"}`} data-pages="sidebar">
+				<div className="sidebar-shadow"
+					style={{
+						borderLeft: '1px solid #d7d7d7',
+						position: 'absolute',
+						height: '100%',
+						width: '5px',
+						right: '-4px',
+						top: '0',
+						zIndex: '11'
+					}}
+				></div>
 				<div className="sidebar-header">
 					<img src={logo} alt="logo" className="brand" data-src="" data-src-retina={logo} width="100"/>
 				</div>

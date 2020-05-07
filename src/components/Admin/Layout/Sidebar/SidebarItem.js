@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link, withRouter } from 'react-router-dom'
+import styled from 'styled-components'
 
 class SidebarItem extends Component {
     
@@ -59,11 +60,15 @@ class SidebarItem extends Component {
                 <a
                     onClick={this.showSubs}
                     className={(this.state.details ? "detailed" : '')}>
-                    <span className="title">{this.state.label}</span>
-                    {this.state.details &&
-                        <span className="details">{this.state.details}</span>
-                    }
-                    <span className={this.state.arrowClass}></span>
+                        <span className="title">
+                            <Pointer>
+                                {this.state.label}
+                            </Pointer>
+                        </span>
+                        {this.state.details &&
+                            <span className="details">{this.state.details}</span>
+                        }
+                        <span className={this.state.arrowClass}></span>
                 </a>
                 )}
                 <span className="icon-thumbnail">
@@ -93,3 +98,7 @@ class SidebarItem extends Component {
 }
  
 export default withRouter(SidebarItem);
+
+const Pointer = styled.div`
+    cursor: pointer
+`;

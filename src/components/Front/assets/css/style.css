@@ -1,4 +1,55 @@
 @charset "UTF-8";
+
+/* HeroSection */
+/* --------------------------------------- */
+.testTyp{
+    font-size: 60px;
+    color: red;
+}
+.MuiPaper-elevation1 {
+box-shadow: none !important;
+}
+
+.hero-customer-header{
+    color: #1B2733;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.hero-customer-typoggraphy{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.MuiCardContent-root{
+    padding: 5px;
+}
+
+.MuiTypography-body1{
+    font-size: 12px !important;
+}
+.hero-cta-group{
+    margin-left: 15px;
+}
+
+/* ClientLogos Section */
+/* --------------------------------------- */
+.client-logo-image{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+.MuiButton-root{
+    color: blue;
+    padding: 1%;
+}
+
+
+
+
+
+
+
 .select2-results,
 .slick-slider {
     -webkit-tap-highlight-color: transparent
@@ -56287,3 +56338,8 @@ body.single-page-tour .no-shadow .imkt-features-screenshots__screenshot img {
 body.single-page-tour .no-shadow .component--link-button {
     margin-top: 12px
 }
+
+
+
+
+/* Content from other style sheet */

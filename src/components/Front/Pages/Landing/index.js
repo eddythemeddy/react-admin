@@ -26,13 +26,8 @@ class Home extends Component {
                 <Testimonials/>
                 { /* */ } 
                 <Footer/>
-<<<<<<< HEAD
-         
-            </>);
-=======
             </>
         );
->>>>>>> master
     }
 }
  

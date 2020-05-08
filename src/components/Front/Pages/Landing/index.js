@@ -13,7 +13,8 @@ import Testimonials from './Tesimonials';
 class Home extends Component {
     state = {  }
     render() { 
-        return (<>
+        return (
+            <>
                 <Header/>
                 <Banner/>
                 { /* */ } 
@@ -25,8 +26,13 @@ class Home extends Component {
                 <Testimonials/>
                 { /* */ } 
                 <Footer/>
+<<<<<<< HEAD
          
             </>);
+=======
+            </>
+        );
+>>>>>>> master
     }
 }
  

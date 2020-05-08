@@ -2,19 +2,6 @@ import React, { Component } from 'react'
 import { Form, FormSpy, Field } from 'react-final-form'
 import { TextInput } from 'bootstrap'
 
-const OnBlurValidation = ({ mutators: { onBlurValidationMutator } }) => (
-  <FormSpy
-    subscription={{ active: true }}
-    onChange={({ active }) => {
-      if (active === undefined) {
-        onBlurValidationMutator();
-      }
-    }}
-  />
-);
-const onBlurValidationMutator = () => { };
-
-
 class LoginForm extends Component {
     
     state = {
@@ -64,7 +51,6 @@ class LoginForm extends Component {
                         }
                         return errors
                     }}
-                    mutators={{ onBlurValidationMutator }}
                     render={({ 
                             values, 
                             submitting,
@@ -134,7 +120,6 @@ class LoginForm extends Component {
                                     </button>
                                 </div>
                             </div>
-                            <OnBlurValidation mutators={mutators} />
                             {/* <div className="m-b-5 m-t-30">
                                 <a href="#" className="normal">Lost your password?</a>
                             </div>

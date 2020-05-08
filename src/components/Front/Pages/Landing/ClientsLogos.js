@@ -7,7 +7,9 @@ class ClientLogos extends Component {
     render() {
         return (
             <MuiThemeProvider>
-                <Fragment className="section-spacer pb-0 section--clients logo-Content">
+
+                <Fragment className="section-spacer pb-0 section--clients">
+          
                     <Card className="container">
                         <CardContent className="hero-title">
                             <h2 className="section-title">Trusted by most fast-forwarding brands</h2>

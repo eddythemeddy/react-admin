@@ -10,6 +10,9 @@ class Home extends Component {
                 <Header/>
                 <Banner/>
                 <Footer/>
+                <div>
+                    
+                </div>
             </>);
     }
 }

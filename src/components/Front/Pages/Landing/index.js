@@ -6,11 +6,13 @@ import Footer from './Footer'
 class Home extends Component {
     state = {  }
     render() { 
-        return (<>
+        return (
+            <>
                 <Header/>
                 <Banner/>
                 <Footer/>
-            </>);
+            </>
+        );
     }
 }
  

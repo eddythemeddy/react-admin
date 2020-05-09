@@ -9,22 +9,22 @@ class Features extends Component {
         return (
             <div>
 
-                <section id="hiw" class="section-spacer bg-very__gray">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-sm-6">
-                                <div class="feature-list-image">
-                                    <img src={feature_image_4} class="img-fluid" alt="Image" />
+                <section id="hiw" className="section-spacer bg-very__gray">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-sm-6">
+                                <div className="feature-list-image">
+                                    <img src={feature_image_4} className="img-fluid" alt="Image" />
                                 </div>
                             </div>
-                            <div class="col-sm-5 ml-auto">
-                                <div class="feature-list-wrapper">
-                                    <div class="content-header">
-                                        <h2 class="content-title">Intuitive Interface</h2>
+                            <div className="col-sm-5 ml-auto">
+                                <div className="feature-list-wrapper">
+                                    <div className="content-header">
+                                        <h2 className="content-title">Intuitive Interface</h2>
                                         <p>Dignissimos maiores, laudantium consequatur nam, officiis repellendus voluptate laboriosam. Efficiis repellendus voluptate
                                 </p>
                                     </div>
-                                    <ul class="list list-unstyled list-circle">
+                                    <ul className="list list-unstyled list-circle">
                                         <li>
                                             <span>Fully responsive</span>
                                         </li>
@@ -38,26 +38,26 @@ class Features extends Component {
                                             <span>Weekly Reports</span>
                                         </li>
                                     </ul>
-                                    <a href="#" class="btn btn-link btn-link--secondary">
+                                    <a href="#" className="btn btn-link btn-link--secondary">
                                         Explore our products
-                <i class="icon ion-ios-arrow-round-forward"></i>
+                <i className="icon ion-ios-arrow-round-forward"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="section-spacer">
-                    <div class="container">
-                        <div class="row flex-column-reverse flex-sm-row align-items-center">
-                            <div class="col-sm-5 mr-auto">
-                                <div class="feature-list-wrapper">
-                                    <div class="content-header">
-                                        <h2 class="content-title">Even more features</h2>
+                <section className="section-spacer">
+                    <div className="container">
+                        <div className="row flex-column-reverse flex-sm-row align-items-center">
+                            <div className="col-sm-5 mr-auto">
+                                <div className="feature-list-wrapper">
+                                    <div className="content-header">
+                                        <h2 className="content-title">Even more features</h2>
                                         <p>Dignissimos maiores, laudantium consequatur nam, officiis repellendus voluptate laboriosam. Efficiis repellendus voluptate
                                 </p>
                                     </div>
-                                    <ul class="list list-circle">
+                                    <ul className="list list-circle">
                                         <li>
                                             <span>Well Documented</span>
                                         </li>
@@ -72,16 +72,16 @@ class Features extends Component {
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="btn btn-link btn-link--secondary">
+                                    <a href="#" className="btn btn-link btn-link--secondary">
                                         Explore our products
-                <i class="icon ion-ios-arrow-round-forward"></i>
+                <i className="icon ion-ios-arrow-round-forward"></i>
                                     </a>
 
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="feature-list-image">
-                                    <img src={feature_image_3} class="img-fluid" alt="Image" />
+                            <div className="col-sm-6">
+                                <div className="feature-list-image">
+                                    <img src={feature_image_3} className="img-fluid" alt="Image" />
                                 </div>
                             </div>
                         </div>

@@ -5,10 +5,10 @@ class PreLoader extends Component {
     render() {
         return (
             <div id="loading">
-                <div class="ripple ripple1"></div>
-                <div class="ripple ripple2"></div>
-                <div class="ripple ripple3"></div>
-                <div class="ripple ripple4"></div>
+                <div className="ripple ripple1"></div>
+                <div className="ripple ripple2"></div>
+                <div className="ripple ripple3"></div>
+                <div className="ripple ripple4"></div>
             </div>
         );
     };

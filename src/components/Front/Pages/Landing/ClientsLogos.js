@@ -10,27 +10,27 @@ class ClientLogos extends Component {
     state = {}
     render() {
         return (
-            <section class="section-spacer pb-0 section--clients">
-                <div class="container">
-                    <header class="section-header text-center w-100">
-                        <h2 class="section-title">Trusted by most fast-forwarding brands</h2>
+            <section className="section-spacer pb-0 section--clients">
+                <div className="container">
+                    <header className="section-header text-center w-100">
+                        <h2 className="section-title">Trusted by most fast-forwarding brands</h2>
                     </header>
-                    <div class="row">
-                        <div class="col-12 mx-auto">
-                            <div class="client-logo__wrapper">
-                                <a href="" class="client-logo">
+                    <div className="row">
+                        <div className="col-12 mx-auto">
+                            <div className="client-logo__wrapper">
+                                <a href="" className="client-logo">
                                     <img src={logo_1} alt="Image" />
                                 </a>
-                                <a href="" class="client-logo">
+                                <a href="" className="client-logo">
                                     <img src={logo_2} alt="Image" />
                                 </a>
-                                <a href="" class="client-logo">
+                                <a href="" className="client-logo">
                                     <img src={logo_3} alt="Image" />
                                 </a>
-                                <a href="" class="client-logo">
+                                <a href="" className="client-logo">
                                     <img src={logo_4} alt="Image" />
                                 </a>
-                                <a href="" class="client-logo">
+                                <a href="" className="client-logo">
                                     <img src={logo_5} alt="Image" />
                                 </a>
                             </div>

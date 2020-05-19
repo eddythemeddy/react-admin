@@ -13,25 +13,27 @@ import Faqs from './Faqs';
 import CallToAction from './CallToAction';
 
 class Home extends Component {
-    state = {  }
-    render() { 
+    state = {}
+    render() {
         return (
             <>
-                <Header/>
-                <Banner/>
-                <HeroSection/>
-                <ClientLogos/>
-                <ScreenSlider/>
-                <Features/>
-                <PricingTable/>
-                <Testimonials/>
-                <Faqs/>
-                <CallToAction/>
-                <Footer/>
-         
+                <Header />
+                {/* <Banner/> */}
+                <div className="x-hidden has-sticky-header">
+                    <HeroSection />
+                    <ClientLogos />
+                    <ScreenSlider />
+                    <Features />
+                    <PricingTable />
+                    <Testimonials />
+                    <Faqs />
+                    <CallToAction />
+                </div>
+                <Footer />
+
             </>);
 
     }
 }
- 
+
 export default Home;

@@ -12,6 +12,7 @@ class LoginForm extends Component {
         // const formData = formatFormData(values)
         try {
             await axios.put(`/login`, values)
+            // .then( res => localStorage.setItem('jwt', res.data));
             // this.props.history.goBack()
         } catch (err) {
             console.log('Error in ScreeningForm onSubmit method', err)

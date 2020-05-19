@@ -5,50 +5,50 @@ class Footer extends Component {
     state = {}
     render() {
         return (
-            <footer class="section-spacer footer-section">
-                <div class="container">
-                    <div class="row flex-column-reverse flex-sm-row flex-lg-row">
-                        <div class="col-md-4 col-12">
-                            <div class="footer-widget first-of-footer-widget">
-                                <img src={logo} class="logo-sm mb-10" alt="Image" />
+            <footer className="section-spacer footer-section">
+                <div className="container">
+                    <div className="row flex-column-reverse flex-sm-row flex-lg-row">
+                        <div className="col-md-4 col-12">
+                            <div className="footer-widget first-of-footer-widget">
+                                <img src={logo} className="logo-sm mb-10" alt="Image" />
                                 <p>Copyright &copy; 2018 Mevius. All Rights Reserved.</p>
-                                <a href="" class="d-block mb-10">1-203-345-8989</a>
+                                <a href="" className="d-block mb-10">1-203-345-8989</a>
                                 <a href="">hello@example.com</a>
-                                <ul class="social-list__inline mt-10">
+                                <ul className="social-list__inline mt-10">
                                     <li>
                                         <a href="">
-                                            <i class="icon ion-logo-facebook"></i>
+                                            <i className="icon ion-logo-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="">
-                                            <i class="icon ion-logo-twitter"></i>
+                                            <i className="icon ion-logo-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="">
-                                            <i class="icon ion-logo-linkedin"></i>
+                                            <i className="icon ion-logo-linkedin"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="">
-                                            <i class="icon ion-logo-instagram"></i>
+                                            <i className="icon ion-logo-instagram"></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="">
-                                            <i class="icon ion-logo-youtube"></i>
+                                            <i className="icon ion-logo-youtube"></i>
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-10">
-                            <div class="row">
-                                <div class="col-md-4 col-6">
-                                    <div class="footer-widget">
-                                        <h4 class="footer-widget__title">Company</h4>
-                                        <ul class="list-unstyled">
+                        <div className="col-md-8 col-sm-10">
+                            <div className="row">
+                                <div className="col-md-4 col-6">
+                                    <div className="footer-widget">
+                                        <h4 className="footer-widget__title">Company</h4>
+                                        <ul className="list-unstyled">
                                             <li>
                                                 <a href="">Home</a>
                                             </li>
@@ -67,10 +67,10 @@ class Footer extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-6">
-                                    <div class="footer-widget">
-                                        <h4 class="footer-widget__title">Developers</h4>
-                                        <ul class="list-unstyled">
+                                <div className="col-md-4 col-6">
+                                    <div className="footer-widget">
+                                        <h4 className="footer-widget__title">Developers</h4>
+                                        <ul className="list-unstyled">
                                             <li>
                                                 <a href="">Migrations</a>
                                             </li>
@@ -89,10 +89,10 @@ class Footer extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="footer-widget">
-                                        <h4 class="footer-widget__title">Support</h4>
-                                        <ul class="list-unstyled">
+                                <div className="col-md-4">
+                                    <div className="footer-widget">
+                                        <h4 className="footer-widget__title">Support</h4>
+                                        <ul className="list-unstyled">
                                             <li>
                                                 <a href="">Help Center</a>
                                             </li>

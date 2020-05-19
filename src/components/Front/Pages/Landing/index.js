@@ -9,6 +9,8 @@ import ScreenSlider from './ScreenSlider'
 import Features from './Features';
 import PricingTable from './PricingTable';
 import Testimonials from './Tesimonials';
+import Faqs from './Faqs';
+import CallToAction from './CallToAction';
 
 class Home extends Component {
     state = {  }
@@ -17,14 +19,14 @@ class Home extends Component {
             <>
                 <Header/>
                 <Banner/>
-                { /* */ } 
                 <HeroSection/>
                 <ClientLogos/>
                 <ScreenSlider/>
                 <Features/>
                 <PricingTable/>
                 <Testimonials/>
-                { /* */ } 
+                <Faqs/>
+                <CallToAction/>
                 <Footer/>
          
             </>);

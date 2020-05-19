@@ -1,57 +1,44 @@
-import React, { Component } from 'react'
-import { MuiThemeProvider } from "@material-ui/core/styles";
-import { Card, CardHeader, CardContent, Typography, TextField, Button, FormControl, FormControlLabel } from "@material-ui/core";
-
+import React, { Component } from 'react';
+import hero_1_2 from '../../assets/img/demo/hero-1-2.png';
 
 class HeroSection extends Component {
     state = {}
     render() {
         return (
-            <MuiThemeProvider>
-                <Card class="container">
-                    <Card className="row align-items-center">
-                        <Card className="col-12 col-sm-6">
-                            <Card className="hero-content">
-                                <Card className="hero-title__group">
-
-
-                                    <Card class="hero-title">
-                                        <CardContent className="hero-title">
-                                            <h1 className="hero-customer-header">Conduct more customer conversions with confidient in a better way.</h1>
-                                        </CardContent>
-                                        <CardContent className="Hero--Subtitle">
-                                            <Typography className="hero-customer-typoggraphy">Start boosting your business conversion rates with curated designs SEO first development sites with zero downtime</Typography>
-                                        </CardContent>
-                                    </Card>
-                                </Card>
-
-                                <Card className="hero-cta-group">
-                                    <FormControl component="fieldset" className="hero-form cta__large">
-                                        <Card className="input-group">
-                                            {/* <FormControlLabel 
-                                            labelPlacement="end"
-                                            label={"Email"}/> */}
-                                            <TextField
-                                                placeholder="Enter your email"
-                                                className="form-control"
-                                                id="intro-email"
-                                            />
-                                            <Button className="btn btn-primary">Get started</Button>
-                                        </Card>
-                                        <Typography className="assistive-text">14-day FREE trial - no credit card needed</Typography>
-                                    </FormControl>
-                                </Card>
-                            </Card>
-                        </Card>
-
-                        <Card className="col-12 col-sm-5 ml-auto">
-                            <Card className="hero-figure">
-                                <img src="https://cdn.clipart.email/0d18decfd10b6a2eb15762a507e09dd3_kitchen-icon-restaurant-cutlery-circular-symbol-of-a-spoon-and-a-_900-900.png" className="img-fluid w-100" alt="" />
-                            </Card>
-                        </Card>
-                    </Card>
-                </Card>
-            </MuiThemeProvider>
+            <header id="hero" className="hero">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-12 col-sm-6">
+                        <div className="hero-content">
+                            <div className="hero-title__group">
+                                <div className="hero-title">
+                                    <h2>Conduct more customer conversions with confidient in a better way.</h2>
+                                </div>
+                                <div className="Hero--Subtitle">
+                                    <p className="lead">Start boosting your business conversion rates with curated designs SEO first development sites with zero downtime
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="hero-cta-group">
+                                <form action="" className="hero-form cta__large">
+                                    <div className="input-group">
+                                        <label for="intro-email" className="sr-only">Email</label>
+                                        <input type="email" className="form-control" id="intro-email" placeholder="Enter your email"/>
+                                        <button type="submit" className="btn btn-secondary">Get started</button>
+                                    </div>
+                                    <span className="assistive-text">14-day FREE trial - no credit card needed</span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-sm-5 ml-auto">
+                        <div className="hero-figure">
+                            <img src={hero_1_2} className="img-fluid w-100" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
         );
     };
 }

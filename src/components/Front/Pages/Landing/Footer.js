@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import logo from '../../assets/img/demo/logo.svg'
 
 class Footer extends Component {
     state = {}
@@ -9,7 +10,7 @@ class Footer extends Component {
                     <div class="row flex-column-reverse flex-sm-row flex-lg-row">
                         <div class="col-md-4 col-12">
                             <div class="footer-widget first-of-footer-widget">
-                                <img src="images/demo/logo.svg" class="logo-sm mb-10" alt="Image" />
+                                <img src={logo} class="logo-sm mb-10" alt="Image" />
                                 <p>Copyright &copy; 2018 Mevius. All Rights Reserved.</p>
                                 <a href="" class="d-block mb-10">1-203-345-8989</a>
                                 <a href="">hello@example.com</a>

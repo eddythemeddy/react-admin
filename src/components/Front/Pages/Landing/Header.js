@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../../../../assets/img/logo.png'
+import logo from '../../assets/img/demo/logo.svg'
+import feature_image_4 from '../../assets/img/demo/featured-images/feature-image-4.png';
 
 class Header extends Component {
     state = {}
@@ -10,7 +11,7 @@ class Header extends Component {
                 <nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light">
                     <div class="container">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/demo/logo.svg" alt="Image" class="logo-md" />
+                            <img src={logo} alt="Image" class="logo-md" />
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="menu-icon__circle">

@@ -4,63 +4,51 @@ import logo from '../../../../assets/img/logo.png'
 class Header extends Component {
     state = {}
 
-    render() { 
-        return (<>
+    render() {
+        return (
             <main>
-                <nav className="imkt-navbar imkt-navbar__default imkt-sticky">
-                    <div className=" container-fluid imkt-navbar__main-section">
-                        <div className="row">
-                            <div className="column nav-comp-column">
-                                <div className="imkt-navbar__title-wrapper">
-                                    <a className="imkt-navbar__title-link" href="/software/jira">
-                                        <img alt="Jira Software" className="lozad imkt-navbar__title-logo" height="33px" src={logo}/>
+                <nav class="navbar navbar-expand-lg fixed-top custom-menu custom-menu__light">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/demo/logo.svg" alt="Image" class="logo-md" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu-icon__circle">
+                            </span>
+                            <span class="menu-icon">
+                                <span class="menu-icon__bar"></span>
+                                <span class="menu-icon__bar"></span>
+                                <span class="menu-icon__bar"></span>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-lg-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#overview">Overview
+            <span class="sr-only">(current)</span>
                                     </a>
-                                    <button className="aui-icon aui-icon-small aui-iconfont-arrow-down" id="jsToggleNavbarMenu">Open and close the navigation menu</button>
-                                </div>
-                                <ul className="imkt-navbar__link-list">
-                                    <li>
-                                        <a className="imkt-navbar__link-list-link" href="/software/jira/features">Features</a>
-                                    </li>
-                                    <li>
-                                        <a className="imkt-navbar__link-list-link" href="/software/jira/guides">Product guide</a>
-                                    </li>
-                                    <li>
-                                        <a className="imkt-navbar__link-list-link" href="/software/jira/enterprise">Enterprise</a>
-                                    </li>
-                                    <li>
-                                        <a className="imkt-navbar__link-list-link" href="/software/jira/pricing">Pricing</a>
-                                    </li>
-                                </ul>
-                                <div className="imkt-navbar__right-nav">
-                                    <a className="component__link button button--one button--small button--secondary button--primary__on-stuck" href="/software/jira/free">Try it free</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container-fluid imkt-navbar__collapsed-section">
-                        <div className="row">
-                            <div className="column">
-                                <ul className="imkt-navbar__collapsed-link-list">
-                                    <li>
-                                        <a className="imkt-navbar__collapsed-link-list-link" href="/software/jira/features">Features</a>
-                                    </li>
-                                    <li>
-                                        <a className="imkt-navbar__collapsed-link-list-link" href="/software/jira/guides">Product guide</a>
-                                    </li>
-                                    <li>
-                                        <a className="imkt-navbar__collapsed-link-list-link" href="/software/jira/enterprise">Enterprise</a>
-                                    </li>
-                                    <li>
-                                        <a className="imkt-navbar__collapsed-link-list-link" href="/software/jira/pricing">Pricing</a>
-                                    </li>
-                                </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#pricing">pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonials">testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#faqs">FAQs</a>
+                                </li>
+                            </ul>
+                            <div class="custom-menu__right">
+                                <a href="login.html" class="btn btn-default">Login</a>
+                                <a href="register.html" class="btn btn-primary btn-pills">Start 14 days free</a>
+                                <p class="assistive-text d-md-none">14 days free - No credit card required</p>
                             </div>
                         </div>
                     </div>
                 </nav>
             </main>
-        </>);
+        );
     }
 }
- 
+
 export default Header;

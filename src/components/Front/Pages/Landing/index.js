@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import Banner from './Banner'
 import Footer from './Footer'
 
 import HeroSection from './HeroSection'
@@ -18,7 +17,6 @@ class Home extends Component {
         return (
             <>
                 <Header />
-                {/* <Banner/> */}
                 <div className="x-hidden has-sticky-header">
                     <HeroSection />
                     <ClientLogos />

@@ -6,7 +6,6 @@ class Front extends Component {
 
     render() {
         require('./assets/css/style.css')
-        require('./assets/css/combined.css')
         
         return (
             <>

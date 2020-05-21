@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import Banner from './Banner'
 import Footer from './Footer'
 
 import HeroSection from './HeroSection'
@@ -13,25 +12,26 @@ import Faqs from './Faqs';
 import CallToAction from './CallToAction';
 
 class Home extends Component {
-    state = {  }
-    render() { 
+    state = {}
+    render() {
         return (
             <>
-                <Header/>
-                <Banner/>
-                <HeroSection/>
-                <ClientLogos/>
-                <ScreenSlider/>
-                <Features/>
-                <PricingTable/>
-                <Testimonials/>
-                <Faqs/>
-                <CallToAction/>
-                <Footer/>
-         
+                <Header />
+                <div className="x-hidden has-sticky-header">
+                    <HeroSection />
+                    <ClientLogos />
+                    <ScreenSlider />
+                    <Features />
+                    {/* <PricingTable /> */}
+                    {/* <Testimonials /> */}
+                    {/* <Faqs /> */}
+                    <CallToAction />
+                </div>
+                <Footer />
+
             </>);
 
     }
 }
- 
+
 export default Home;

@@ -44,12 +44,12 @@ class SidebarItem extends Component {
     render() {
         const Icon = this.state.icon
         const { subItems, url } = this.state
-        const subItemsArray = subItems == false ? [] : subItems
+        const subItemsArray = subItems === false ? [] : subItems
         const active = window.location.pathname === url ? 'active' : ''
 
         return (
             <li className={`${this.state.id === 1 ? 'm-t-10' : ''} ${this.state.li} ${active}`}>
-                {( subItems == false ? 
+                {( subItems === false ? 
                 <Link
                     to={url}
                     className={(this.state.details ? "detailed" : '')}>

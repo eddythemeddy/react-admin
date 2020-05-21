@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Form, FormSpy, Field } from 'react-final-form'
-import { TextInput } from 'bootstrap'
+import { Form, Field } from 'react-final-form'
 import axios from 'axios'
 class LoginForm extends Component {
     state = {
@@ -12,6 +11,7 @@ class LoginForm extends Component {
         // const formData = formatFormData(values)
         try {
             await axios.put(`/login`, values)
+            // .then( res => localStorage.setItem('jwt', res.data));
             // this.props.history.goBack()
         } catch (err) {
             console.log('Error in ScreeningForm onSubmit method', err)
@@ -113,7 +113,7 @@ class LoginForm extends Component {
                                             className="btn btn-primary btn-lg m-t-10"
                                             type="submit"
                                             disabled={submitting || validating}>Sign in
-                                    </button>
+                                        </button>
                                     </div>
                                 </div>
                                 {/* <div className="m-b-5 m-t-30">

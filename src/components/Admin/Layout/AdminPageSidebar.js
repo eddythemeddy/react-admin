@@ -2,8 +2,8 @@ import React from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
 
-import 'bootstrap/scss/bootstrap.scss';
-import '../../../pages/scss/pages.scss';
+ //import 'bootstrap/scss/bootstrap.scss';
+ //import '../../../pages/scss/pages.scss';
 import PageContentSidebar from './PageContent/Sidebar';
 
 const AdminPageSidebar = () => {

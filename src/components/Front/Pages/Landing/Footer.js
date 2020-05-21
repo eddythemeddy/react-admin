@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import logo from '../../assets/img/demo/logo.svg'
+import logo from '../../../../assets/img/logo.png'
+
+const thisYear = new Date().getFullYear()
 
 class Footer extends Component {
     state = {}
@@ -10,10 +12,10 @@ class Footer extends Component {
                     <div className="row flex-column-reverse flex-sm-row flex-lg-row">
                         <div className="col-md-4 col-12">
                             <div className="footer-widget first-of-footer-widget">
-                                <img src={logo} className="logo-sm mb-10" alt="Image" />
-                                <p>Copyright &copy; 2018 Mevius. All Rights Reserved.</p>
+                                <img src={logo} className="logo-sm mb-10" alt="Image" width="70"/>
+                                <p>Copyright &copy; {thisYear} Ghostly. All Rights Reserved.</p>
                                 <a href="" className="d-block mb-10">1-203-345-8989</a>
-                                <a href="">hello@example.com</a>
+                                <a href="mailto:info@ghostly.kitchen">info@ghostly.kitchen</a>
                                 <ul className="social-list__inline mt-10">
                                     <li>
                                         <a href="">

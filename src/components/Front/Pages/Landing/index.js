@@ -22,9 +22,9 @@ class Home extends Component {
                     <ClientLogos />
                     <ScreenSlider />
                     <Features />
-                    <PricingTable />
-                    <Testimonials />
-                    <Faqs />
+                    {/* <PricingTable /> */}
+                    {/* <Testimonials /> */}
+                    {/* <Faqs /> */}
                     <CallToAction />
                 </div>
                 <Footer />

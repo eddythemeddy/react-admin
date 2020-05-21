@@ -26,7 +26,7 @@ class Header extends Component {
                         <ul className="navbar-nav ml-lg-auto">
                             <li className="nav-item active">
                                 <a className="nav-link" href="#overview">Overview
-            <span className="sr-only">(current)</span>
+                                    <span className="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li className="nav-item">

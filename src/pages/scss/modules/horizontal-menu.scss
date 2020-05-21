@@ -216,7 +216,7 @@
               position: absolute;
               height: 1px;
               top: $navbar-width + 7px;
-              width: calc(100% - $menu-padding);
+              width: calc(100% - #{$menu-padding});
               background-color: $color-border-a;
             }
             & > li {

@@ -12,9 +12,9 @@ class Footer extends Component {
                     <div className="row flex-column-reverse flex-sm-row flex-lg-row">
                         <div className="col-md-4 col-12">
                             <div className="footer-widget first-of-footer-widget">
-                                <img src={logo} className="logo-sm mb-10" alt="Image" width="70"/>
-                                <p>Copyright &copy; {thisYear} Ghostly. All Rights Reserved.</p>
-                                <a href="" className="d-block mb-10">1-203-345-8989</a>
+                                <img src={logo} className="logo-sm mb-10" alt="Image" width="100"/><br/>
+                                <p>Copyright &copy; {thisYear} Ghostly. <br/>All Rights Reserved.</p>
+                                <a href="" className="mb-10">1-203-345-8989</a> |&nbsp;
                                 <a href="mailto:info@ghostly.kitchen">info@ghostly.kitchen</a>
                                 <ul className="social-list__inline mt-10">
                                     <li>
@@ -48,6 +48,8 @@ class Footer extends Component {
                         <div className="col-md-8 col-sm-10">
                             <div className="row">
                                 <div className="col-md-4 col-6">
+                                </div>
+                                <div className="col-md-4 col-6">
                                     <div className="footer-widget">
                                         <h4 className="footer-widget__title">Company</h4>
                                         <ul className="list-unstyled">
@@ -69,7 +71,7 @@ class Footer extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-6">
+                                {/* <div className="col-md-4 col-6">
                                     <div className="footer-widget">
                                         <h4 className="footer-widget__title">Developers</h4>
                                         <ul className="list-unstyled">
@@ -90,7 +92,7 @@ class Footer extends Component {
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-md-4">
                                     <div className="footer-widget">
                                         <h4 className="footer-widget__title">Support</h4>

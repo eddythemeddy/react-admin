@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import Header from './Header'
-import Footer from './Footer'
+
 
 import HeroSection from './HeroSection'
 import ClientLogos from './ClientsLogos'
@@ -16,7 +15,7 @@ class Home extends Component {
     render() {
         return (
             <>
-                <Header />
+              
                 <div className="x-hidden has-sticky-header">
                     <HeroSection />
                     <ClientLogos />
@@ -27,7 +26,7 @@ class Home extends Component {
                     {/* <Faqs /> */}
                     <CallToAction />
                 </div>
-                <Footer />
+               
 
             </>);
 

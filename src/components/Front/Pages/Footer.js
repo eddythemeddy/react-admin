@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../../../../assets/img/logo.png'
+import logo from '../../../assets/img/logo.png'
 
 const thisYear = new Date().getFullYear()
 
@@ -12,7 +12,7 @@ class Footer extends Component {
                     <div className="row flex-column-reverse flex-sm-row flex-lg-row">
                         <div className="col-md-4 col-12">
                             <div className="footer-widget first-of-footer-widget">
-                                <img src={logo} className="logo-sm mb-10" alt="Image" width="100"/><br/>
+                                <img src={logo} className="logo-sm mb-10" alt="Image" width="80"/><br/>
                                 <p>Copyright &copy; {thisYear} Ghostly. <br/>All Rights Reserved.</p>
                                 <a href="" className="mb-10">1-203-345-8989</a> |&nbsp;
                                 <a href="mailto:info@ghostly.kitchen">info@ghostly.kitchen</a>

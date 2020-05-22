@@ -35,6 +35,16 @@ class Main extends Component {
                             path='/home'
                             component={Front}
                         />
+                         <Route
+                            exact
+                            path='/toc'
+                            component={Front}
+                        />
+                         <Route
+                            exact
+                            path='/privacyPolicy'
+                            component={Front}
+                        />
                         <Route
                             exact
                             path='/login'

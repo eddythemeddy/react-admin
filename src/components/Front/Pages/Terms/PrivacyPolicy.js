@@ -7,10 +7,9 @@ class PrivacyPolicy extends Component {
         require('../../assets/css/style.css')
         return (
             <div className="container">
-                <div className="section-screens__inner">
-                    <div>
-
-                        <h2>Privacy Policy </h2>
+                {/* <div className="section-screens__inner"> */}
+                    <div className="section-screen_privacy-policy">  
+                        <h2 className="content-title">Privacy Policy </h2>
                         <p>Your privacy is important to us. It is Ghostly 's policy to respect your privacy regarding any information we may collect from you across our website, <a href="#">http://ghostly.kitchen</a>, and other sites we own and operate.</p>
                         <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
                         <p>We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
@@ -22,7 +21,7 @@ class PrivacyPolicy extends Component {
 
                         <p>This policy is effective as of 25 May 2020.</p>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         );
     };

@@ -8,9 +8,6 @@ const formData = {
 const validateEmail = email => (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
 
 class CallToAction extends Component {
-    state = {
-        showErrors: false
-    }
 
     onSubmit = async values => {
         console.log(values)
@@ -19,9 +16,8 @@ class CallToAction extends Component {
     }
 
     render() {
-        const { showErrors } = this.state;
         return (
-            <section id="try" className="section-spacer text-left pb-0 pt-50">
+            <section id="try" className="section-spacer text-left pb-60 pt-50">
                 <div className="container">
                     <div className="callout">
                         <div className="callout-content">
@@ -36,9 +32,7 @@ class CallToAction extends Component {
                                 initialValues={formData}
                                 validate={values => {
                                     const errors = {}
-                                    const {
-                                        email
-                                    } = values
+                                    const { email } = values
                                     const requiredMsg = '* required'
                                     if (email === undefined) {
                                         errors.email = {

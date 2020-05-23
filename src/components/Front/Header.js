@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../../../../assets/img/logo.png'
+import logo from '../../assets/img/logo.png'
+import { Link } from 'react-router-dom'
 
 const Header = props => {
 
@@ -28,9 +29,11 @@ const Header = props => {
     return (
         <nav className={`navbar navbar-expand-lg fixed-top custom-menu custom-menu__light ${navBarIsSticky}`}>
             <div className="container">
-                <a className="navbar-brand" href="index.html">
-                    <img src={logo} alt="Image" className="logo-md" width="120" />
-                </a>
+                <Link 
+                    className="navbar-brand" 
+                    to="/">
+                    <img src={logo} alt="Image" className="logo-md" width="110" />
+                </Link>
                 <button 
                     className="navbar-toggler" 
                     type="button" 

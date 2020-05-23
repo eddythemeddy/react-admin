@@ -1,18 +1,23 @@
-import React, { Component } from 'react'
-import logo from '../../../../assets/img/logo.png'
+import React from 'react'
+import logo from '../../assets/img/logo.png'
+import styled from 'styled-components'
+import { Link } from "react-router-dom";
 
+const Wrapper = styled.div`
+    background-color: #f2f2f2;
+`;
 const thisYear = new Date().getFullYear()
 
-class Footer extends Component {
-    state = {}
-    render() {
-        return (
+const Footer = () =>{
+    
+    return (
+        <Wrapper>
             <footer className="section-spacer footer-section">
                 <div className="container">
                     <div className="row flex-column-reverse flex-sm-row flex-lg-row">
                         <div className="col-md-4 col-12">
                             <div className="footer-widget first-of-footer-widget">
-                                <img src={logo} className="logo-sm mb-10" alt="Image" width="100"/><br/>
+                                <img src={logo} className="logo-sm mb-10" alt="Image" width="75"/><br/>
                                 <p>Copyright &copy; {thisYear} Ghostly. <br/>All Rights Reserved.</p>
                                 <a href="" className="mb-10">1-203-345-8989</a> |&nbsp;
                                 <a href="mailto:info@ghostly.kitchen">info@ghostly.kitchen</a>
@@ -54,17 +59,17 @@ class Footer extends Component {
                                         <h4 className="footer-widget__title">Company</h4>
                                         <ul className="list-unstyled">
                                             <li>
-                                                <a href="">Home</a>
+                                                <Link to="/">Home</Link>
                                             </li>
                                             <li>
                                                 <a href="#overview">Overview</a>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <a href="#testimonial">testimonials</a>
                                             </li>
                                             <li>
                                                 <a href="#pricing">pricing</a>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <a href="#faq">FAQs</a>
                                             </li>
@@ -104,10 +109,10 @@ class Footer extends Component {
                                                 <a href="#">Enterprises</a>
                                             </li>
                                             <li>
-                                                <a href="#">Privacy Policy</a>
+                                                <Link to="/privacy-policy">Privacy Poilcy</Link>
                                             </li>
                                             <li>
-                                                <a href="#">Terms and Service</a>
+                                                <Link to="/terms-and-conditions">Terms and Conditions</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -117,8 +122,8 @@ class Footer extends Component {
                     </div>
                 </div>
             </footer>
-        );
-    }
+        </Wrapper>
+    );
 }
 
 export default Footer;

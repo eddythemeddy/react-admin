@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 import { checkLoginStatus } from '../store/actions/userActions'
 import PrivateRoute from './PrivateRoute'
 import Front from './Front'
-import Error from './Front/Error'
 import AdminPageSidebar from './Admin/Layout/AdminPageSidebar';
 import AdminPageFullPage from './Admin/Layout/AdminPageFullPage';
 
@@ -37,6 +36,16 @@ class Main extends Component {
                         />
                         <Route
                             exact
+                            path='/terms-and-conditions'
+                            component={Front}
+                        />
+                        <Route
+                            exact
+                            path='/privacy-policy'
+                            component={Front}
+                        />
+                        <Route
+                            exact
                             path='/login'
                             component={AdminPageFullPage}
                         />
@@ -63,11 +72,6 @@ class Main extends Component {
                             path='/sales'
                             isAllowed={isLogged} 
                             component={AdminPageSidebar}
-                        />
-                        <PrivateRoute
-                            component={Error}
-                            isAllowed={isLogged}
-                            pageComponent='Error'
                         />
                     </Switch>
                 </BrowserRouter>

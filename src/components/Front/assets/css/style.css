@@ -11476,3 +11476,10 @@ RESPONSIVES
         margin-top: 20px;
     }
 }
+
+    /*
+    Privacy Policy
+    */
+  .section-screen_privacy-policy{
+    padding: 30px 20px;
+}

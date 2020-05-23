@@ -23,7 +23,7 @@ class CallToAction extends Component {
                         <div className="callout-content">
                             <div className="Callout--Header">
                                 <h2>Start your free trial</h2>
-                                <p className="lead">Lick human with sandpaper tongue paw at your fat belly be a nyan cat, feel great about it, be annoying 24/7 poop</p>
+                                <p className="lead">Start your free trial today to get working!</p>
                             </div>
                         </div>
                         <div className="callout-footer ml-lg-auto">

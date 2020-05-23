@@ -15,6 +15,7 @@ class Home extends Component {
                     <HeroSection />
                     <ClientLogos />
                     <ScreenSlider />
+                    
                     <Features />
                     {/* <PricingTable /> */}
                     {/* <Testimonials /> */}

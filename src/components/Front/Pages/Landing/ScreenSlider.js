@@ -15,14 +15,13 @@ class ScreenSlider extends Component {
                             <div className="col-md-8 mx-auto">
                                 <header className="section-header pt-100 text-center">
                                     <h2 className="section-title">Single platform, Deep insights</h2>
-                                    <p className="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus aut reiciendis praesentium.
-                                </p>
-                                    <a href="https://www.youtube.com/watch?v=_zjQ0_v8JtY" className="btn btn-has-icon icon-on__left text-uppercase btn-link--secondary js-video-modal-trigger">
+                                    <p className="lead">Gain deep insights and understandings of your kitchen.</p>
+                                    {/* <a href="https://www.youtube.com/watch?v=_zjQ0_v8JtY" className="btn btn-has-icon icon-on__left text-uppercase btn-link--secondary js-video-modal-trigger">
                                         <span className="u-icon u-icon__sm u-icon__circle u-icon__outline">
                                             <i className="icon ion-ios-play"></i>
                                         </span>
-                  Watch the video
-                </a>
+                                        Watch the video
+                                    </a> */}
                                 </header>
                             </div>
                         </div>

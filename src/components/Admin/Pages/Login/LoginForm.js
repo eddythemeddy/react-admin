@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Form, Field } from 'react-final-form'
 import axios from 'axios'
+    
 class LoginForm extends Component {
     state = {
         showErrors: false
@@ -9,14 +10,14 @@ class LoginForm extends Component {
         console.log(values)
         // format data coming from form to match the structure accepted bu backend API
         // const formData = formatFormData(values)
-        try {
-            await axios.put(`/login`, values)
-            // .then( res => localStorage.setItem('jwt', res.data));
-            // this.props.history.goBack()
-        } catch (err) {
-            console.log('Error in ScreeningForm onSubmit method', err)
-            this.setState({ showErrors: true })
-        }
+        // try {
+        //     await axios.post(`/api/`, values)
+        //     // .then( res => localStorage.setItem('jwt', res.data));
+        //     // this.props.history.goBack()
+        // } catch (err) {
+        //     console.log('Error in ScreeningForm onSubmit method', err)
+        //     this.setState({ showErrors: true })
+        // }
     }
     render() {
         const { showErrors } = this.state;

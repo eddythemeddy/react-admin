@@ -55,18 +55,18 @@ const Header = props => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#pricing">pricing</a>
+                            <a className="nav-link" href="#pricing">Features</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#testimonials">testimonials</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#faqs">FAQs</a>
-                        </li>
+                        </li> */}
                     </ul>
                     <div className="custom-menu__right">
-                        <a href="login.html" className="btn btn-default">Login</a>
-                        <a href="register.html" className="btn btn-primary btn-pills">Start 14 days free</a>
+                        <a href="http://64.225.35.167/login" className="btn btn-default" target="_blank">Login</a>
+                        <a href="#try" className="btn btn-primary btn-pills">Request Information</a>
                         <p className="assistive-text d-md-none">14 days free - No credit card required</p>
                     </div>
                 </div>

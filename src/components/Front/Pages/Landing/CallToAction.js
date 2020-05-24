@@ -26,7 +26,7 @@ class CallToAction extends Component {
                                 <p className="lead">Lick human with sandpaper tongue paw at your fat belly be a nyan cat, feel great about it, be annoying 24/7 poop</p>
                             </div>
                         </div>
-                        <div className="callout-footer ml-lg-auto">
+                        <div className="ml-lg-auto" style={{ flex: '0.5 1 12%'}}>
                             <Form
                                 onSubmit={this.onSubmit}
                                 initialValues={formData}
@@ -55,20 +55,33 @@ class CallToAction extends Component {
                                     onSubmit
                                 }) => (
                                         <form action="">
-                                            <div className="input-group">
+                                            <div className="">
                                                 <Field name="email">
                                                     {({ input, meta }) => (
                                                         <>
                                                             <input
                                                                 {...input}
                                                                 type="email"
-                                                                placeholder="Enter your email"
+                                                                placeholder="Your email"
+                                                                className={`form-control ${meta.error && meta.touched ? 'is-invalid' : ''}`}
+                                                            />
+                                                        </>
+                                                    )}
+                                                </Field>
+                                                <Field name="company">
+                                                    {({ input, meta }) => (
+                                                        <>
+                                                            <input
+                                                                {...input}
+                                                                type="email"
+                                                                placeholder="Kitchen"
                                                                 className={`form-control ${meta.error && meta.touched ? 'is-invalid' : ''}`}
                                                             />
                                                         </>
                                                     )}
                                                 </Field>
                                                 <button
+                                                    style={{float: 'right'}}
                                                     type="submit"
                                                     className="btn btn-primary"
                                                     onClick={e => {
@@ -78,12 +91,12 @@ class CallToAction extends Component {
                                                         )
                                                     }}
                                                     disabled={submitting || validating}
-                                                >Start your free trial</button>
+                                                >Sign up!</button>
                                             </div>
                                         </form>
                                     )}
                             />
-                            <p className="d-block text-sm">14 days free - no credit card required</p>
+                            {/* <p className="d-block text-sm">14 days free - no credit card required</p> */}
                         </div>
                     </div>
                 </div>

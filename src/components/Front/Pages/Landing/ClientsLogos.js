@@ -13,7 +13,7 @@ class ClientLogos extends Component {
             <section className="section-spacer pb-0 section--clients">
                 <div className="container">
                     <header className="section-header text-center w-100">
-                        <h2 className="section-title">Trusted by most fast-forwarding brands</h2>
+                        <h2 className="section-title">Trusted by Ghost Kitchens</h2>
                     </header>
                     <div className="row">
                         <div className="col-12 mx-auto">

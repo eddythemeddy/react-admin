@@ -15,7 +15,6 @@ class Front extends Component {
         return (
             <>
                 <Header/>
-                <BrowserRouter>
                     <Switch>
                         <Route 
                             exact
@@ -37,7 +36,6 @@ class Front extends Component {
                             component={Error}
                         />
                     </Switch>
-                </BrowserRouter>
                 <Footer/>
             </>
         );

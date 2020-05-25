@@ -19,8 +19,7 @@ const Footer = () =>{
                             <div className="footer-widget first-of-footer-widget">
                                 <img src={logo} className="logo-sm mb-10" alt="Image" width="75"/><br/>
                                 <p>Copyright &copy; {thisYear} Ghostly. <br/>All Rights Reserved.</p>
-                                <a href="" className="mb-10">1-203-345-8989</a> |&nbsp;
-                                <a href="mailto:info@ghostly.kitchen">info@ghostly.kitchen</a>
+                                <a href="mailto:info@ghostly.kitchen" class="text-complete">info@ghostly.kitchen</a>
                                 <ul className="social-list__inline mt-10">
                                     <li>
                                         <a href="">

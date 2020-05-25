@@ -13,7 +13,7 @@ class Main extends Component {
 
     componentDidMount() {
         const { checkLoginStatus } = this.props
-        checkLoginStatus()
+        // checkLoginStatus()
     }
 
     render() {
@@ -72,6 +72,9 @@ class Main extends Component {
                             path='/sales'
                             isAllowed={isLogged} 
                             component={AdminPageSidebar}
+                        />
+                        <Route
+                            component={Front}
                         />
                     </Switch>
                 </BrowserRouter>

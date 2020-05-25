@@ -768,11 +768,14 @@
   .navbar-toggle {
     display: none;
   }
-  .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
+  body:not(.home-page) {
+      
+    .navbar-collapse.collapse {
+      display: block !important;
+      height: auto !important;
+      padding-bottom: 0;
+      overflow: visible !important;
+    }
   }
   .dataTables_wrapper.form-inline .checkbox input[type="checkbox"],
   .form-inline .radio input[type="radio"] {

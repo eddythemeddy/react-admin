@@ -4,7 +4,7 @@
 
 .login-wrapper {
   background-color: $color-primary;
-  background: url(https://storage.googleapis.com/kepler-marketing/community_login_cover_c.jpg);
+  background: url(https://static01.nyt.com/images/2019/12/26/fashion/19ghostkitchen-1/merlin_165883395_a74df689-416c-4b01-8cc9-6b52ce194ad0-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -18,6 +18,7 @@
     position: absolute;
     width: 100%;
     overflow: hidden;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), #007bff);
     & > img {
       height: 100%;
       opacity: 0.6;

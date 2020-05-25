@@ -49,7 +49,7 @@ const Header = props => {
                 </button>
                 <div className={`${!navBarOpen && navBarClass} navbar-collapse`} id="navbarSupportedContent">
                     <ul className="navbar-nav ml-lg-auto">
-                        <li className="nav-item active">
+                        {/* <li className="nav-item active">
                             <a className="nav-link" href="#overview">Overview
                                 <span className="sr-only">(current)</span>
                             </a>
@@ -62,11 +62,15 @@ const Header = props => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#faqs">FAQs</a>
-                        </li>
+                        </li> */}
                     </ul>
                     <div className="custom-menu__right">
-                        <a href="login.html" className="btn btn-default">Login</a>
-                        <a href="register.html" className="btn btn-primary btn-pills">Start 14 days free</a>
+						<Link 
+							className="btn btn-default" 
+							to="/login">
+							Login
+						</Link>
+                        <a href="/#try" className="btn btn-primary btn-pills">Join Now!</a>
                         <p className="assistive-text d-md-none">14 days free - No credit card required</p>
                     </div>
                 </div>

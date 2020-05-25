@@ -13,7 +13,7 @@ $builder-options-header-height: 102px;
   }
   [data-action] {
     &.active:before {
-      background-image: url("../../../assets/img/demo/tick.svg");
+      background-image: url("#{$assets-url}img/demo/tick.svg");
       width: 23px;
       height: 23px;
       content: "";
@@ -49,7 +49,7 @@ $builder-options-header-height: 102px;
     &.btn-toggle-layout {
       &.active {
         &:before {
-          background-image: url("../../../assets/img/demo/tick.svg");
+          background-image: url("#{$assets-url}img/demo/tick.svg");
           width: 23px;
           height: 23px;
           content: "";

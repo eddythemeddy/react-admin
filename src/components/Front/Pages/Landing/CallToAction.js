@@ -26,7 +26,7 @@ class CallToAction extends Component {
                                 <p className="lead">Lick human with sandpaper tongue paw at your fat belly be a nyan cat, feel great about it, be annoying 24/7 poop</p>
                             </div>
                         </div>
-                        <div className="ml-lg-auto" style={{ flex: '0.5 1 12%'}}>
+                        <div className="ml-lg-auto" style={{ flex: '0.5 1 12%', paddingTop: '20px'}}>
                             <Form
                                 onSubmit={this.onSubmit}
                                 initialValues={formData}

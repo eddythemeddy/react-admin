@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import store from './store/Store.js';
+import "@babel/polyfill";
 
 class App extends Component {
 

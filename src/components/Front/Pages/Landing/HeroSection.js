@@ -53,64 +53,13 @@ class HeroSection extends Component {
                                 </div>
                             </div>
                             <div className="hero-cta-group">
-                            {!this.state.isSubmitted ? (
-                                <Form
-                                    onSubmit={this.handleSubmit}
-                                    initialValues={formData}
-                                    validate={values => {
-                                        const errors = {}
-                                        const {
-                                            email
-                                        } = values
-                                        const requiredMsg = '* required'
-                                        if (email === undefined) {
-                                            errors.email = {
-                                                value: requiredMsg,
-                                                show: true,
-                                            }
-                                        } else if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))) {
-                                            errors.email = {
-                                                value: 'Must be valid email',
-                                                show: true
-                                            }
-                                        }
-                                        return errors
-                                    }}
-                                    render={({
-                                        values,
-                                        submitting,
-                                        validating,
-                                        handleSubmit
-                                    }) => (
-                                        <form onSubmit={handleSubmit} className="hero-form cta__large">
-                                            <div className="input-group">
-                                                <label className="sr-only">Email</label>
-                                                <Field name="email">
-                                                    {({ input, meta }) => (
-                                                        <>
-                                                            <input
-                                                                {...input}
-                                                                type="email"
-                                                                placeholder="Enter your email"
-                                                                className={`form-control ${meta.error && meta.touched ? 'is-invalid' : ''}`}
-                                                            />
-                                                        </>
-                                                    )}
-                                                </Field>
-                                                <button 
-                                                    type="submit"
-                                                    disabled={submitting || validating}
-                                                    className="btn btn-secondary">
-                                                    Get started
-                                                </button>
-                                            </div>
-                                            <span className="assistive-text">14-day FREE trial - no credit card needed</span>
-                                        </form>
-                                    )}
-                                />
-                            ) : (
-                                <h5>{this.state.message}</h5>
-                            )}
+                                <a 
+                                    type="submit"
+                                    href="#try"
+                                    style={{float:'right', marginRight: '40px'}}
+                                    className="btn btn-secondary">
+                                    Get started
+                                </a>
                             </div>
                         </div>
                     </div>

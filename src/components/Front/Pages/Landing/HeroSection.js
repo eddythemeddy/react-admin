@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Field } from 'react-final-form'
-import hero_1_2 from '../../assets/img/demo/hero-1-3.png';
+import hero_1_2 from '../../assets/img/demo/hero-1-2.png';
 import axios from 'axios'
 
 const formData = {
@@ -37,7 +37,7 @@ class HeroSection extends Component {
             <header id="hero" className="hero">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-12 col-sm-6">
+                    <div className="col-12 col-sm-7">
                         <div className="hero-content">
                             <div className="hero-title__group">
                                 <div className="hero-title">
@@ -56,7 +56,7 @@ class HeroSection extends Component {
                                 <a 
                                     type="submit"
                                     href="#try"
-                                    style={{float:'right', marginRight: '40px'}}
+                                    style={{float:'left', marginRight: '40px'}}
                                     className="btn btn-secondary">
                                     Get started
                                 </a>

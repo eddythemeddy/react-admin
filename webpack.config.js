@@ -45,10 +45,10 @@ module.exports = {
         ]
     },
     plugins: [
-        new WebpackShellPlugin({
-            onBuildStart: ['echo "Starting"'],
-            onBuildEnd: ['mv dist/* ../ghostly/']
-        }),
+        // new WebpackShellPlugin({
+        //     onBuildStart: ['echo "Starting"'],
+        //     onBuildEnd: ['mv dist/* ../ghostly/']
+        // }),
         new HtmlWebPackPlugin({
             template: path.resolve( __dirname, 'public/index.html' ),
             filename: 'index.html'

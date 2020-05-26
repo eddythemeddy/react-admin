@@ -10,10 +10,6 @@ const Header = props => {
 
     useEffect(() => {
         // Update the document title using the browser API
-        abc();
-    });
-
-    const abc = () => {
         window.addEventListener('resize', () => {
             setNavBarClass("collapse")
         }, false);
@@ -24,7 +20,7 @@ const Header = props => {
             setNavBarSticky("navbar-is-sticky") :
             setNavBarSticky("")
         }, false)
-    }
+    });
     
     return (
         <nav className={`navbar navbar-expand-lg fixed-top custom-menu custom-menu__light ${navBarIsSticky}`}>

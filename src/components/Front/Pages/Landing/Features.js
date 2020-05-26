@@ -21,8 +21,7 @@ class Features extends Component {
                                 <div className="feature-list-wrapper">
                                     <div className="content-header">
                                         <h2 className="content-title">Automate your back of house operations </h2>
-                                        <p>Dignissimos maiores, laudantium consequatur nam, officiis repellendus 
-                                            voluptate laboriosam. Efficiis repellendus voluptate</p>
+                                        <p></p>
                                     </div>
                                     <ul className="list list-unstyled list-circle">
                                         <li>
@@ -50,8 +49,8 @@ class Features extends Component {
                             <div className="col-sm-5 mr-auto">
                                 <div className="feature-list-wrapper">
                                     <div className="content-header">
-                                        <h2 className="content-title"></h2>
-                                        <p>Manage your team with confidence</p>
+                                        <h2 className="content-title">Manage your team with confidence</h2>
+                                        <p></p>
                                     </div>
                                     <ul className="list list-circle">
                                         <li>

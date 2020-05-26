@@ -29,13 +29,12 @@
   "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build/* ../ghostly/",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "webpack-dev-server": "webpack-dev-server",
     "dev": "webpack-dev-server --mode=development",
-    "prod": "webpack --mode=production",
-    "move": "move build/* ../ghostly/"
+    "prod": "webpack --mode=production"
   },
   "eslintConfig": {
     "extends": "react-app"

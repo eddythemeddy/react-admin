@@ -12,10 +12,9 @@ const Login = () => {
             <div className="login-wrapper ">
                 <div className="bg-pic">
                     <div className="bg-caption pull-bottom sm-pull-bottom text-white p-l-20 m-b-20">
-                    <h1 className="semi-bold text-white">
-                        Meet pages - The simplest and fastest way to build web UI for your dashboard or app.</h1>
+                    <h1 className="semi-bold text-white">Get rid of the headache.<br/>Let Ghostly run your kitchen.</h1>
                     <p className="small">
-                        Our beautifully-designed UI Framework come with hundreds of customizable features. Every Layout is just a starting point. ©2019-2020 All Rights Reserved. Pages® is a registered trademark of Revox Ltd.
+                        Start boosting your kitchen with structured processes for efficient productivity and less margin for error.
                     </p>
                     </div>
                 </div>

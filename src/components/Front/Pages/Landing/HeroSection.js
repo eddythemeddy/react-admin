@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Field } from 'react-final-form'
-import hero_1_2 from '../../assets/img/demo/hero-1-2.png';
+import hero_1_2 from '../../assets/img/demo/hero-1-3.png';
 import axios from 'axios'
 
 const formData = {

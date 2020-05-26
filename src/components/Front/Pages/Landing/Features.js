@@ -20,27 +20,24 @@ class Features extends Component {
                             <div className="col-sm-5 ml-auto">
                                 <div className="feature-list-wrapper">
                                     <div className="content-header">
-                                        <h2 className="content-title">Intuitive Interface</h2>
-                                        <p>Dignissimos maiores, laudantium consequatur nam, officiis repellendus voluptate laboriosam. Efficiis repellendus voluptate
-                                </p>
+                                        <h2 className="content-title">Automate your back of house operations </h2>
+                                        <p>Dignissimos maiores, laudantium consequatur nam, officiis repellendus 
+                                            voluptate laboriosam. Efficiis repellendus voluptate</p>
                                     </div>
                                     <ul className="list list-unstyled list-circle">
                                         <li>
-                                            <span>Fully responsive</span>
+                                            <span>Tweak your receipe costing and margins with complete flexibility</span>
                                         </li>
                                         <li>
-                                            <span>24/7 Supports</span>
+                                            <span>Compile and schedule all your orders ahead of time</span>
                                         </li>
                                         <li>
-                                            <span>Single API</span>
-                                        </li>
-                                        <li>
-                                            <span>Weekly Reports</span>
+                                            <span>Organize, track, and build relationships with your client base</span>
                                         </li>
                                     </ul>
                                     <a href="#" className="btn btn-link btn-link--secondary">
                                         Explore our products
-                <i className="icon ion-ios-arrow-round-forward"></i>
+                                        <i className="icon ion-ios-arrow-round-forward"></i>
                                     </a>
                                 </div>
                             </div>
@@ -53,30 +50,24 @@ class Features extends Component {
                             <div className="col-sm-5 mr-auto">
                                 <div className="feature-list-wrapper">
                                     <div className="content-header">
-                                        <h2 className="content-title">Even more features</h2>
-                                        <p>Dignissimos maiores, laudantium consequatur nam, officiis repellendus voluptate laboriosam. Efficiis repellendus voluptate
-                                </p>
+                                        <h2 className="content-title"></h2>
+                                        <p>Manage your team with confidence</p>
                                     </div>
                                     <ul className="list list-circle">
                                         <li>
-                                            <span>Well Documented</span>
+                                            <span>Control and reconciliate your inventory in real time.</span>
                                         </li>
                                         <li>
-                                            <span>Clean Codes</span>
+                                            <span>View your dashboard for a bird-eye view of your day to day operations</span>
                                         </li>
                                         <li>
-                                            <span>Unique Design</span>
-                                        </li>
-                                        <li>
-                                            <span>Fair price</span>
+                                            <span>Reduce overall food waste and improve your bottom line</span>
                                         </li>
                                     </ul>
-
                                     <a href="#" className="btn btn-link btn-link--secondary">
                                         Explore our products
-                <i className="icon ion-ios-arrow-round-forward"></i>
+                                        <i className="icon ion-ios-arrow-round-forward"></i>
                                     </a>
-
                                 </div>
                             </div>
                             <div className="col-sm-6">

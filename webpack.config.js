@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require( 'html-webpack-plugin' );
+const CopyPlugin = require('copy-webpack-plugin');
 const path = require( 'path' );
 
 module.exports = {
@@ -44,6 +45,11 @@ module.exports = {
         ]
     },
     plugins: [
+        new CopyPlugin({
+            patterns: [
+                { from: './', to: '../../ghostly' },
+            ],
+        }),
         new HtmlWebPackPlugin({
             template: path.resolve( __dirname, 'public/index.html' ),
             filename: 'index.html'

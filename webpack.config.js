@@ -1,8 +1,5 @@
 const HtmlWebPackPlugin = require( 'html-webpack-plugin' );
-<<<<<<< HEAD
-=======
-const CopyPlugin = require('copy-webpack-plugin');
->>>>>>> deployment-branch
+const WebpackShellPlugin = require('webpack-shell-plugin');
 const path = require( 'path' );
 
 module.exports = {
@@ -48,10 +45,9 @@ module.exports = {
         ]
     },
     plugins: [
-        new CopyPlugin({
-            patterns: [
-                { from: './', to: '../../ghostly' },
-            ],
+        new WebpackShellPlugin({
+            onBuildStart: ['echo "Starting"'],
+            onBuildEnd: ['mv dist/* ../ghostly/']
         }),
         new HtmlWebPackPlugin({
             template: path.resolve( __dirname, 'public/index.html' ),
